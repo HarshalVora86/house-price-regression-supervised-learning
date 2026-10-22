@@ -286,24 +286,6 @@ Both models agree on the top two drivers: **overall quality and total area**. Ou
 5. **Everyday amenities matter.** Central air, garage capacity and kitchen quality all contribute measurably.
 6. **Expect larger errors on luxury homes.** Use wider price ranges when quoting estimates for expensive properties.
 
----
-
-## ⚠️ Limitations
-- **Small, single-city data:** 1,460 rows from Ames, Iowa. The model will not transfer directly to Indian or other markets without local data.
-- **Errors grow with price:** the model is least reliable for expensive homes.
-- **Time period:** sales are from 2006 to 2010, so prices have drifted since then.
-- **Rare categories:** neighbourhoods such as `Blueste` and `NPkVill` have very few houses, so their estimates are less trustworthy.
-- **Tuning:** the tuned model did not improve on the default, so the reported XGBoost settings are hand-chosen rather than fully optimised.
-
----
-
-## 🚀 Next Steps for Production
-- **More data:** add recent, local listings to improve reliability.
-- **Better tuning:** Bayesian optimisation (e.g. Optuna) with a tighter search space.
-- **Ensembling:** stack XGBoost with Lasso/Ridge to reduce variance.
-- **Neighbourhood features:** target encoding or geographic data (distance to metro, schools).
-- **Deployment:** wrap the saved pipeline in a simple API or web app for live estimates.
-- **Monitoring:** track RMSE on live predictions and retrain regularly as prices drift.
 
 For a short business-style write-up, see [`summary_report.md`](summary_report.md).
 
