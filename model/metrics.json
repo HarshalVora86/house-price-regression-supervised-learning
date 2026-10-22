@@ -1,0 +1,14 @@
+{
+    "model": "XGBoost Regressor",
+    "target": "SalePrice",
+    "target_transform": "log1p; predictions converted back using expm1",
+    "rmse": 19534.092542383856,
+    "mae": 14086.130658711467,
+    "r2": 0.9309196948554481,
+    "training_seconds": 0.705,
+    "train_rows": 1166,
+    "test_rows": 292,
+    "removed_outlier_rows": 2,
+    "random_state": 42,
+    "model_file": "model\\house_price_model.pkl"
+}
