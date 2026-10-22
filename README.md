@@ -2,9 +2,6 @@
 
 An end-to-end machine learning project that predicts house sale prices using the **Ames Housing dataset**. It covers EDA, preprocessing, feature engineering, model comparison, residual analysis, and a reusable training script that saves a production-ready pipeline.
 
-**Author:** [Harshal Vora](https://github.com/HarshalVora86) · [LinkedIn](https://www.linkedin.com/in/harshal-vora-344601251/)
-**Repository:** [house-price-regression-supervised-learning](https://github.com/HarshalVora86/house-price-regression-supervised-learning)
-
 ---
 
 ## 🎥 Video Explanation
@@ -165,9 +162,6 @@ model = joblib.load("model/house_price_model.pkl")
 new_houses = pd.read_csv("Dataset/train.csv").drop(columns=["SalePrice", "Id"]).head(3)
 print(np.expm1(model.predict(new_houses)))   # predicted prices in USD
 ```
-
-For the full write-up, see [`summary_report.md`](summary_report.md).
-
 ---
 
 ## 📬 Contact
