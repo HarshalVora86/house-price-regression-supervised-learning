@@ -11,7 +11,7 @@ An end-to-end machine learning project that predicts house sale prices on the **
 
 ## 🎥 Video Explanation
 
-> 📌 **Video link:** _Add your video link here_ → `[Watch the walkthrough](YOUR_VIDEO_LINK)`
+> 📌 **Video link:** https://drive.google.com/file/d/1Tu6fl43XpB1LFms7TYvwQPd6fScaJOjT/view?usp=sharing
 
 ---
 
